@@ -19,6 +19,11 @@
     z-index: 1;
 }
 
+#menu{
+    display:grid;
+    place-item: center;
+}
+
 header{
     width: 100%;
     height: 50vh;
@@ -290,6 +295,7 @@ main{
     height: 85vh;
     background-image: url(../images/bg_contact.png);
     background-position: center;
+    background-repeat:no-repeat;
 }
 
 
