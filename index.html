@@ -8,19 +8,20 @@
 </head>
 <body>
 
-    <div id="menu"> 
-        <p>Blueasy</p>
-        <a href="#" class="menuPagina1" id="selector"> home</a> 
-        <a href="#" class="menuPagina2"> services</a> 
-        <a href="#" class="menuPagina3"> features</a> 
-        <a href="#" class="menuPagina4">portfolio</a> 
-        <a href="#" class="menuPagina5"> contac</a>
-    </div>
-
     <header>
+        <div id="menu"> 
+            <p class="titulo-header">Blueasy</p>
+            <div>
+                <a href="#" class="menuPagina1" id="selector"> home</a> 
+                <a href="#" class="menuPagina2"> services</a> 
+                <a href="#" class="menuPagina3"> features</a> 
+                <a href="#" class="menuPagina4">portfolio</a> 
+                <a href="#" class="menuPagina5"> contac</a>
+            </div>
+        </div>
         <div>
-            <p class="item-1">"I'M LOOKING FOR THE UNEXPECTED. </p> <br>
-            <p class="item-2"> I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE." </p> 
+            <p class="titulo-header2">"I'M LOOKING FOR THE UNEXPECTED. </p> <br>
+            <p class="titulo-header2"> I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE." </p> 
         </div>
 
     </header>
@@ -117,38 +118,52 @@
         </section>
 
         <section id="seccion6">
-            <h2 id="item-7">TESTIMONIALS</h2>
-            <P id="item-8">''</P>
-            <P id="item-9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto velit magnam dicta incidunt eos aut natus voluptatem alias illo atque unde facere cum debitis odit eius, architecto doloribus! Aliquam, quisquam?m</P>
-            <h4 id="item-10">walter white</h4>
-        </section>
-
-        <section id="seccion7">
-            <h2>CONTACT</h2>
-            <div class="formulario1Secc7">
-                <label for="name">full name</label>
-                <input type="text" name="name" id="name" class="input">
-                <label for="">email</label>
-                <input type="email" name="email" id="email" class="input">
-                <p id="texto">lorem</p>
-                <div>
-                    <p>linda</p>
-                    <p>W325 State Road 123</p>
-                    <p>Mondovi, WI(Wisconsin) 98746-54321</p>
-                    <p>(715) 946 - 1234</p>
+            <div class="testimonial-section">
+                <h2>Testimonials</h2>
+                <div class="testimonial-content">
+                    <p>
+                        “Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.”
+                    </p>
+                    <p class="author">- Walter White</p>
                 </div>
-                <label for="MESSAGE">MESSAGE </label>
-                <input type="text" name="MESSAGE" id="comentario">
-                <button class="bnt-secc7">MESSAGE</button>
-                
             </div>
         </section>
+
+        
+        <section id="seccion7">
+            <div class="contact-container">
+              <h1>Contact</h1>
+             <form class="contact-form">
+                <label for="name">Full Name</label>
+              <input type="text" id="name" name="name">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" >
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat necessitatibus eos deleniti? Et necessitatibus recusandae blanditiis voluptates, aliquam maxime totam modi amet, asperiores ex cumque veritatis praesentium quaerat suscipit.</p> <br>
+            <p>Linda Newman</p>
+            <p>W325 State Road 123</p>
+            <p>Mondovi, WI (Wisconsin) 98746-54321</p>
+            <p>(715) 946 - 1234</p>
+        </div>
+    </div>
+</section>
+
+
     </main>
     <footer>
         <a href="#" class="footerRedes">HOME |</a>
         <a href="#" class="footerRedes">SERVICES |</a>
         <a href="#" class="footerRedes">PORTFOLIO |</a>
         <a href="#" class="footerRedes">CONTACT</a>
+
+        <p>2013@</p>
     </footer>
 </body>
 </html>
